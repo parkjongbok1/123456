@@ -138,9 +138,9 @@ section {
   min-width: 1400px;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 
-  height: 300vh;
+  /* height: 100vh; */
   /* background: pink; */
 }
 /* section:nth-child(even) {
@@ -170,10 +170,23 @@ a {
   width: 100vw; /* 각 요소의 가로 크기 조정 */
   height: 100vh; /* 각 요소의 세로 크기 조정 */
   /* margin-right: 10px; 요소들 간의 간격 조정 */
-  background-color: #d40000;
+  /* background-color: #d40000; */
+  background-size: cover;
 }
 
 /* header */
+.header {
+  position: fixed;
+  left: 100px;
+  top: 40px;
+  z-index: 1000;
+}
+.header h1 {
+}
+.header h1 a {
+}
+.header h1 a img {
+}
 .side_menu {
   width: 50px;
   height: 100vh;

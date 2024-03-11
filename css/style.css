@@ -2,30 +2,42 @@
 .visual {
   width: 1640px;
   margin-right: 1920px;
+  background: url("../image/visual.png") no-repeat center center;
+}
+.visual .point {
+  position: absolute;
+  right: -70%;
+  bottom: 3%;
 }
 
 /* company */
 .company {
   width: 1720px;
-  margin-right: 500px;
+  margin-right: 900px;
+  background: url("../image/company.png") no-repeat center center;
 }
 
 /* motto */
 .motto {
   width: 1700px;
   margin-right: 1200px;
+  background: url("../image/motto.png") no-repeat center center;
 }
 
 /* work */
 .work {
   width: 4250px;
   margin-right: 800px;
+  background: url("../image/work.png") no-repeat center center;
 }
 
 /* contact */
 .contact {
   width: 1640px;
   margin-right: 50px;
+  background: url("../image/contact.png") no-repeat center center;
+
+  z-index: 100;
 }
 
 .black_bg {
@@ -40,4 +52,11 @@
   height: 100vh;
   object-fit: cover;
   vertical-align: baseline;
+}
+
+.scroll_bar {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  z-index: 10;
 }
