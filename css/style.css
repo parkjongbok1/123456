@@ -1,0 +1,43 @@
+/* visual */
+.visual {
+  width: 1640px;
+  margin-right: 1920px;
+}
+
+/* company */
+.company {
+  width: 1720px;
+  margin-right: 500px;
+}
+
+/* motto */
+.motto {
+  width: 1700px;
+  margin-right: 1200px;
+}
+
+/* work */
+.work {
+  width: 4250px;
+  margin-right: 800px;
+}
+
+/* contact */
+.contact {
+  width: 1640px;
+  margin-right: 50px;
+}
+
+.black_bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.black_bg video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  vertical-align: baseline;
+}
